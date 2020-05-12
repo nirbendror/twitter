@@ -1,0 +1,61 @@
+	.navigation{
+		border: 1px solid #38A1F3;
+		background-color: #38A1F3;
+		z-index: 10;
+	}
+  
+	p{
+	  	display: inline;
+		padding-right:70px;
+	}
+  
+	li{
+	  display: inline-block;
+	  padding-right:20px;
+
+	}
+	#login{
+		position: relative;
+		left: 500%;
+	}
+	#aa{
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		alt = "ofek logo";
+	}
+	
+	.aaaaa{
+
+		position: relative;
+		right: 35px;
+		padding: 10px;
+		
+
+	}
+	
+	#tweeText{
+		position: relative;
+		left: 350px;
+		margin: 35px;
+		width: 500px; 
+		height: 170px;
+		border-radius: 5px;
+		border: 1px solid #38A1F3;
+	}
+	.tweet{
+		position: relative;
+		width: 65x;
+		height: 35px;
+		background-color: #38A1F3;
+		border: 1px solid #38A1F3;
+		color: white;
+		left: 330px;
+		bottom: 50px;
+	}
+	#updateTweet{
+		position: relative;
+		left: 390px;
+		bottom: 20px;
+	}
+

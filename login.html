@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link href= "login.css" type= "text/css" rel="stylesheet">
+	<script src="login.js"></script>
+	<script src="users.js"></script>
+	<script src="Signup.js"></script>
+	<script src="Tweets.js"></script>
+
+
+
+  
+
+</head>
+<body onload= loginlogout()>
+
+	<div class="navigation">
+	<p class="oneline"><img id="aa" src="assets/logo.png"> <strong>ofekTwitter</strong></p>
+	<li  onclick=location.href="Tweets.html"> Tweets </li>
+	<li onclick=location.href="users.html"> Users </li>
+	<li onclick=location.href="aboutUs.html"> About us </li>
+	<li><p id="login"></p></li>
+
+	
+	</div><br><br><br><br>
+	
+
+	
+    <div class="Login">
+        <form id= "form">
+                <pre>username <input id="username" type="text" required></pre>       
+                <pre>password <input id="password" type="password" required></pre>        
+                <p><input type="submit" value="Login" class="submit" onclick= Validation()></p><br><br>
+                <p id="p_signup">Don't have a user?<a href="SignUp.html" class="sign"> Sign up here</a></p>
+         </form>
+    </div>
+
+	
+	
+	</script>
+
+</body>
+</html>
+

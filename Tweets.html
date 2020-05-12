@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link href= "Tweets.css" type= "text/css" rel="stylesheet">
+    <script src="Tweets.js"></script>
+	<script src="users.js"></script>
+	<script src="login.js"></script>
+
+
+	
+</head>
+
+<body onload= loginlogout()>
+
+	<div class="navigation">
+	<p class="oneline"><img id="aa" src="assets/logo.png"> <strong>ofekTwitter</strong></p>
+	<li  onclick=location.href="Tweets.html"> Tweets </li>
+	<li onclick=location.href="users.html"> Users </li>
+	<li onclick=location.href="aboutUs.html"> About us </li>
+	<li><p id="login"></p></li>
+	</div>
+
+	
+	<div class="post">
+		<div id="textPost">
+			<textarea placeholder="Share your ideas" id="tweeText"></textarea>
+			<button class="tweet" onclick= writeTweet() >Tweet</button>
+			<br>
+		</div>
+		<div>
+			<p id= "updateTweet"></p>
+		</div>
+	</div>
+</body>
+</html>
+

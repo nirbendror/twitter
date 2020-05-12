@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link href= "users.css" type= "text/css" rel="stylesheet">
+
+	<script src="login.js"></script>
+	<script src="users.js"></script>
+	<script src="Signup.js"></script>
+	<script src="Tweets.js"></script>
+
+
+</head>
+
+<body onload= loginlogout()>
+
+	<div class="navigation">
+	<p class="oneline"><img id="aa" src="assets/logo.png"> <strong>ofekTwitter</strong></p>
+	<li  onclick=location.href="Tweets.html"> Tweets </li>
+	<li onclick= addUser()> Users </li>
+	<li onclick=location.href="aboutUs.html"> About us </li>
+	<li><p id="login"></p></li>
+	</div>
+	
+	<textarea placeholder="Search user" id="searchA"></textarea>
+	<button class="SearchB" onclick= searchUser()>Search</button> <!-- TODO: onclick=SearchUsers -->
+	
+	<div class="userList"id="userpage">
+		<p id= "updateTweet"></p>
+	</div>
+	
+
+
+	
+
+	
+</body>
+</html>
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link href= "signup.css" type= "text/css" rel="stylesheet">
+		
+	<script src="login.js"></script>
+	<script src="users.js"></script>
+	<script src="Signup.js"></script>
+	<script src="Tweets.js"></script>
+
+
+</head>
+
+<body onload= loginlogout()>
+
+	<div class="navigation">
+	<p class="oneline"><img id="aa" src="assets/logo.png"> <strong>ofekTwitter</strong></p>
+	<li  onclick=location.href="Tweets.html"> Tweets </li>
+	<li onclick=location.href="users.html"> Users </li>
+	<li onclick=location.href="aboutUs.html"> About us </li>
+	<li><p id="login"></p></li>
+	</div>
+	<div class= "signup">
+		<form id="form">
+			<table id = "table">
+                <tr>       
+                    <td>Username</td>
+                    <td><input id="Username" type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Display Name</td>
+                    <td><input id="Displayname" type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input id="password" type="password" required></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password</td>
+                    <td><input id="confirmPassword" type="password" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input  id="submit" type="submit" value="Sign Up" class="signup" onclick= newUser()></td>  
+
+                </tr>
+            </table>
+        </form>
+	</div>
+
+	
+
+
+
+
+</body>
+</html>
+

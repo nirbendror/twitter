@@ -1,0 +1,54 @@
+<!Doctype html>
+
+<html>
+
+<head>
+	<link href= "try.css" type= "text/css" rel="stylesheet">
+
+</head>
+
+<body>
+	<textarea placeholder="Search user" id="searchA"></textarea>
+	<button id="ab" onclick= a();>login</button>
+
+	<button class="b1" type="button" onclick= a()> aaaaa</button>
+
+	<div class="userList">
+		<p id= "updateTweet"></p>
+	</div>
+
+	
+	<script>
+	function t(){
+    for(let i = 0; i<localStorage.length; i++){
+		let user1= JSON.parse(window.localStorage.getItem(localStorage.key(i)));
+		
+		
+		
+		var para= document.createElement("P");
+		para.innerHTML= "logout";		
+		document.getElementById("login1").appendChild(para);
+		
+		
+		var para = document.createElement("P");
+		para.innerHTML= "aaaaaa";		
+		document.getElementById("updateTweet").appendChild(para);
+		}
+	}
+	function a(){
+		if (document.getElementById("ab").value="login"){
+			document.getElementById("ab").innerHTML="logout";	
+
+		}
+
+	}
+
+		
+
+	</script>
+
+</body>
+
+</html>
+</html>
+
